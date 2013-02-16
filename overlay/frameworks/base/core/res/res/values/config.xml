@@ -32,7 +32,7 @@
 
     <string-array translatable="false" name="config_tether_upstream_regexs">
         <item>"ppp\\d"</item>
-        <item>"eth\\d"</item>
+        <item>"wlan\\d"</item>
     	<item>"pdp\\d"</item> 
     	<item>"rmnet\\d"</item>
     </string-array>

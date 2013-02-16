@@ -41,10 +41,9 @@ PRODUCT_PACKAGES += \
 
 # update utilities
 PRODUCT_PACKAGES += \
-    broadcom \
+    brcm_patchram_plus \
     libOmxCore \
     SamsungServiceMode \
-    libcopybit \
     toggleshutter \
     patchlcs \
     dexpreopt \

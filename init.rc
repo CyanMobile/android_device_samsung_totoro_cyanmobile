@@ -715,7 +715,7 @@ on property:dev.bootcomplete=1
         stop dhcp-service
         start dhcp-service
 
-service iprenew_eth0 /system/bin/dhcpcd -n
+service iprenew_wlan0 /system/bin/dhcpcd -n
     disabled
     oneshot
 
