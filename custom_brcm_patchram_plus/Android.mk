@@ -1,3 +1,4 @@
+ifeq ($(TARGET_BOOTLOADER_BOARD_NAME),totoro)
 ifeq ($(BOARD_HAVE_BLUETOOTH_BCM),true)
 
 LOCAL_PATH:= $(call my-dir)
@@ -25,4 +26,5 @@ LOCAL_C_FLAGS := \
 
 include $(BUILD_EXECUTABLE)
 
+endif
 endif
